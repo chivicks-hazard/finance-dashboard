@@ -1,7 +1,9 @@
+import { AiFillDollarCircle } from "react-icons/ai";
 import { BiSolidCreditCardFront } from "react-icons/bi";
 import { CiSearch } from "react-icons/ci";
-import { FaRegEnvelope } from "react-icons/fa6";
+import { FaRegEnvelope, FaSackDollar } from "react-icons/fa6";
 import { GiWallet } from "react-icons/gi";
+import { HiMiniCreditCard } from "react-icons/hi2";
 import { IoSettingsOutline } from "react-icons/io5";
 import { LuUser } from "react-icons/lu";
 import { MdWindow } from "react-icons/md";
@@ -41,6 +43,15 @@ const Icon: React.FC<IconProps> = ({icon, className}) => {
 
         case "notification":
             return <VscBell className={className} />
+
+        case "income":
+            return <FaSackDollar className={className} />
+
+        case "expense":	
+            return <HiMiniCreditCard className={className} />
+
+        case "savings":
+            return <AiFillDollarCircle className={className} />
     
         default:
             break;
