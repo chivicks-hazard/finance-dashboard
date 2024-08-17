@@ -1,10 +1,12 @@
 import { BiSolidCreditCardFront } from "react-icons/bi";
+import { CiSearch } from "react-icons/ci";
 import { FaRegEnvelope } from "react-icons/fa6";
 import { GiWallet } from "react-icons/gi";
 import { IoSettingsOutline } from "react-icons/io5";
 import { LuUser } from "react-icons/lu";
 import { MdWindow } from "react-icons/md";
 import { TbHeartRateMonitor } from "react-icons/tb";
+import { VscBell } from "react-icons/vsc";
 
 type IconProps = {
     icon: string,
@@ -33,6 +35,12 @@ const Icon: React.FC<IconProps> = ({icon, className}) => {
 
         case "settings":
             return <IoSettingsOutline className={className} />
+
+        case "search":
+            return <CiSearch className={className} />
+
+        case "notification":
+            return <VscBell className={className} />
     
         default:
             break;
