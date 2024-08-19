@@ -2,7 +2,7 @@ import Icon from "./Icon"
 
 const Header = () => {
     return (
-        <header>
+        <header className="fixed top-0 right-0 w-10/12">
             <nav className="flex flex-row justify-between bg-bgmain p-5">
                 <h1 className="text-2xl text-white">Dashboard</h1>
 

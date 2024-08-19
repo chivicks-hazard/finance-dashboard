@@ -9,7 +9,9 @@ export default {
       colors: {
         'bgmain': "#1b1c21",
         'bgsec': "#282c35",
+        "bgter": "#3d414a",
         'txtsec': "#babcbb",
+        "txtter": "#c4c7cf",
         'green': "#20cc50"
       },
     },

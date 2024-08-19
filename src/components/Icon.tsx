@@ -1,4 +1,4 @@
-import { AiFillDollarCircle } from "react-icons/ai";
+import { AiFillDollarCircle, AiOutlinePlus } from "react-icons/ai";
 import { BiSolidCreditCardFront } from "react-icons/bi";
 import { CiSearch } from "react-icons/ci";
 import { FaRegEnvelope, FaSackDollar } from "react-icons/fa6";
@@ -52,6 +52,9 @@ const Icon: React.FC<IconProps> = ({icon, className}) => {
 
         case "savings":
             return <AiFillDollarCircle className={className} />
+
+        case "add":
+            return <AiOutlinePlus className={className} />
     
         default:
             break;
