@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/roboto": "^5.0.14",
     "autoprefixer": "^10.4.20",
+    "chart.js": "^4.4.3",
     "finance": "file:",
     "postcss": "^8.4.41",
     "react": "^18.3.1",
