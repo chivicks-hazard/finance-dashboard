@@ -2,11 +2,12 @@ import { AiFillDollarCircle, AiOutlinePlus } from "react-icons/ai";
 import { BiSolidCreditCardFront } from "react-icons/bi";
 import { CiSearch } from "react-icons/ci";
 import { FaCircle, FaRegEnvelope, FaSackDollar } from "react-icons/fa6";
-import { GiWallet } from "react-icons/gi";
+import { GiCoffeeCup, GiWallet } from "react-icons/gi";
 import { HiMiniCreditCard } from "react-icons/hi2";
-import { IoSettingsOutline } from "react-icons/io5";
+import { IoBusiness, IoSettingsOutline } from "react-icons/io5";
 import { LuUser } from "react-icons/lu";
-import { MdWindow } from "react-icons/md";
+import { MdFileCopy, MdWindow } from "react-icons/md";
+import { RiAccountPinBoxFill } from "react-icons/ri";
 import { TbHeartRateMonitor } from "react-icons/tb";
 import { VscBell } from "react-icons/vsc";
 
@@ -58,6 +59,18 @@ const Icon: React.FC<IconProps> = ({icon, className}) => {
 
         case "circle":
             return <FaCircle className={className} />
+
+        case "account":
+            return <RiAccountPinBoxFill className={className} />
+
+        case "software":
+            return <MdFileCopy className={className} />
+
+        case "rent":
+            return <IoBusiness className={className} />
+
+        case "food":
+            return <GiCoffeeCup className={className} />
     
         default:
             break;
