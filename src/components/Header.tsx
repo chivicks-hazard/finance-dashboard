@@ -1,4 +1,5 @@
 import Icon from "./Icon"
+import image from "../assets/images/man-one.jpg"
 
 const Header = () => {
     return (
@@ -15,7 +16,7 @@ const Header = () => {
                     </form>
                     <Icon icon="notification" className="block text-2xl text-txtsec" />
 
-                    <img src="https://api.unrealperson.com/image?name=image.53978.1624117.jpg&type=tpdne" alt="Person" className="rounded-full w-10" />
+                    <img src={image} alt="Person" className="rounded-full w-10" />
                 </div>
             </nav>
         </header>

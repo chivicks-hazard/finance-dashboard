@@ -7,7 +7,7 @@ const InfoSection = () => {
         <section id="info">
             <div className="p-6 mt-20 bg-bgsec">
                 <InfoCards />
-                <div className="flex flex-row justify-between items-center pt-6">
+                <div className="flex flex-row justify-between items-start pt-6">
                     <Graphs />
                     <Transactions />
                 </div>
