@@ -1,7 +1,7 @@
 import { AiFillDollarCircle, AiOutlinePlus } from "react-icons/ai";
 import { BiSolidCreditCardFront } from "react-icons/bi";
 import { CiSearch } from "react-icons/ci";
-import { FaRegEnvelope, FaSackDollar } from "react-icons/fa6";
+import { FaCircle, FaRegEnvelope, FaSackDollar } from "react-icons/fa6";
 import { GiWallet } from "react-icons/gi";
 import { HiMiniCreditCard } from "react-icons/hi2";
 import { IoSettingsOutline } from "react-icons/io5";
@@ -55,6 +55,9 @@ const Icon: React.FC<IconProps> = ({icon, className}) => {
 
         case "add":
             return <AiOutlinePlus className={className} />
+
+        case "circle":
+            return <FaCircle className={className} />
     
         default:
             break;

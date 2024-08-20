@@ -12,7 +12,8 @@ export default {
         "bgter": "#3d414a",
         'txtsec': "#babcbb",
         "txtter": "#c4c7cf",
-        'green': "#20cc50"
+        'green': "#20cc50",
+        "yellow": "#febf22"
       },
     },
   },
